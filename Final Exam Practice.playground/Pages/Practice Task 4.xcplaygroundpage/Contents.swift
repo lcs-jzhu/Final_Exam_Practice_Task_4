@@ -32,6 +32,77 @@ let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
 let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 
 // Begin your solution here... 
+canvas.drawShapesWithFill
+canvas.fillColor = Color(hue: 338, saturation: 83, brightness: 89, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 400, height: 600)
+
+// right top white squares
+for size in stride(from: 25, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.white
+    canvas.drawRectangle(centreX: 400, centreY: 400, width: size, height: size)
+}
+
+// right top black squares
+for size in stride(from: 75, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.black
+    canvas.drawRectangle(centreX: 400, centreY: 400, width: size, height: size)
+}
+//left top white squares
+for size in stride(from: 25, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.white
+    canvas.drawRectangle(centreX: 0, centreY: 400, width: size, height: size)
+}
+//left top black squares
+for size in stride(from: 75, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.black
+    canvas.drawRectangle(centreX: 0, centreY: 400, width: size, height: size)
+}
+
+//left bottom white squares
+for size in stride(from: 25, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.white
+    canvas.drawRectangle(centreX: 0, centreY: 0, width: size, height: size)
+}
+//left bottom black squares
+for size in stride(from: 75, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.black
+    canvas.drawRectangle(centreX: 0, centreY: 0, width: size, height: size)
+}
+// right bottom white squares
+for size in stride(from: 25, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.white
+    canvas.drawRectangle(centreX: 400, centreY: 0, width: size, height: size)
+}
+//right bottom black squares
+for size in stride(from: 75, through: 400, by: 100) {
+    canvas.drawShapesWithFill = false
+    canvas.drawShapesWithBorders
+    canvas.defaultBorderWidth = 15
+    canvas.borderColor = Color.black
+    canvas.drawRectangle(centreX: 400, centreY: 0, width: size, height: size)
+}
+
 
 /*:
  **Remember to commit and push your work,please**.
